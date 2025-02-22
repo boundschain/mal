@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+        .module-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .module-card {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .module-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .module-card a {
+            text-decoration: none;
+            color: #3498db;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .module-card a:hover {
+            color: #2980b9;
+        }
+        .module-card p {
+            margin: 10px 0 0;
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Module Links</h1>
+    <div class="module-grid">
+        <div class="module-card">
+            <a href="Module 1/Welcome Module.htm">Module 1: Welcome Module</a>
+            <p>Introduction to the course and its objectives.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 2/Introduction To Malware Development.htm">Module 2: Introduction To Malware Development</a>
+            <p>Learn the basics of malware development.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 3/Required Tools.htm">Module 3: Required Tools</a>
+            <p>Tools and software needed for malware development.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 4/Coding Basics.htm">Module 4: Coding Basics</a>
+            <p>Fundamentals of coding for malware development.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 5/Windows Architecture.htm">Module 5: Windows Architecture</a>
+            <p>Understanding the architecture of Windows systems.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 6/Windows Memory Management.htm">Module 6: Windows Memory Management</a>
+            <p>How Windows manages memory and its implications.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 7/Introduction To The Windows API.htm">Module 7: Introduction To The Windows API</a>
+            <p>Exploring the Windows API for malware development.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 8/Portable Executable Format.htm">Module 8: Portable Executable Format</a>
+            <p>Understanding the PE file format.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 9/Dynamic-Link Library.htm">Module 9: Dynamic-Link Library</a>
+            <p>Working with DLLs in malware development.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 10/Detection Mechanisms.htm">Module 10: Detection Mechanisms</a>
+            <p>How malware is detected and ways to evade detection.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 11/Windows Processes.htm">Module 11: Windows Processes</a>
+            <p>Understanding Windows processes and their manipulation.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 12/Undocumented Structures.htm">Module 12: Undocumented Structures</a>
+            <p>Exploring undocumented Windows structures.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 13/Payload Placement - .data & .rdata Sections.htm">Module 13: Payload Placement - .data & .rdata Sections</a>
+            <p>Placing payloads in specific PE sections.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 14/Payload Placement - .text Section.htm">Module 14: Payload Placement - .text Section</a>
+            <p>Placing payloads in the .text section of a PE file.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 15/Payload Placement - .rsrc Section.htm">Module 15: Payload Placement - .rsrc Section</a>
+            <p>Placing payloads in the resource section of a PE file.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 16/Introduction To Payload Encryption.htm">Module 16: Introduction To Payload Encryption</a>
+            <p>Basics of encrypting payloads for evasion.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 17/Payload Encryption - XOR.htm">Module 17: Payload Encryption - XOR</a>
+            <p>Using XOR for payload encryption.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 18/Payload Encryption - RC4.htm">Module 18: Payload Encryption - RC4</a>
+            <p>Using RC4 for payload encryption.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 19/Payload Encryption - AES Encryption.htm">Module 19: Payload Encryption - AES Encryption</a>
+            <p>Using AES for payload encryption.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 20/Evading Microsoft Defender Static Analysis.htm">Module 20: Evading Microsoft Defender Static Analysis</a>
+            <p>Techniques to evade static analysis by Microsoft Defender.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 21/Payload Obfuscation - IPv4_IPv6Fuscation.htm">Module 21: Payload Obfuscation - IPv4_IPv6Fuscation</a>
+            <p>Obfuscating payloads using IP address techniques.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 22/Payload Obfuscation - MACFucscation.htm">Module 22: Payload Obfuscation - MACFucscation</a>
+            <p>Obfuscating payloads using MAC address techniques.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 23/Payload Obfuscation - UUIDFuscation.htm">Module 23: Payload Obfuscation - UUIDFuscation</a>
+            <p>Obfuscating payloads using UUID techniques.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 24/Maldev Academy Tool - HellShell.htm">Module 24: Maldev Academy Tool - HellShell</a>
+            <p>Using the HellShell tool for malware development.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 25/Maldev Academy Tool - MiniShell.htm">Module 25: Maldev Academy Tool - MiniShell</a>
+            <p>Using the MiniShell tool for malware development.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 26/Local Payload Execution - DLL.htm">Module 26: Local Payload Execution - DLL</a>
+            <p>Executing payloads locally using DLLs.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 27/Local Payload Execution - Shellcode.htm">Module 27: Local Payload Execution - Shellcode</a>
+            <p>Executing payloads locally using shellcode.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 28/Process Injection - DLL Injection.htm">Module 28: Process Injection - DLL Injection</a>
+            <p>Injecting DLLs into processes for execution.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 29/Process Injection - Shellcode Injection.htm">Module 29: Process Injection - Shellcode Injection</a>
+            <p>Injecting shellcode into processes for execution.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 30/Payload Staging - Web Server.htm">Module 30: Payload Staging - Web Server</a>
+            <p>Staging payloads using a web server.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 31/Payload Staging - Windows Registry.htm">Module 31: Payload Staging - Windows Registry</a>
+            <p>Staging payloads using the Windows Registry.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 32/Malware Binary Signing.htm">Module 32: Malware Binary Signing</a>
+            <p>Signing malware binaries for evasion.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 33/Process Enumeration - EnumProcesses.htm">Module 33: Process Enumeration - EnumProcesses</a>
+            <p>Enumerating processes using EnumProcesses.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 34/Process Enumeration - NtQuerySystemInformation.htm">Module 34: Process Enumeration - NtQuerySystemInformation</a>
+            <p>Enumerating processes using NtQuerySystemInformation.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 35/Thread Hijacking - Local Thread Creation.htm">Module 35: Thread Hijacking - Local Thread Creation</a>
+            <p>Hijacking local threads for execution.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 36/Thread Hijacking - Remote Thread Creation.htm">Module 36: Thread Hijacking - Remote Thread Creation</a>
+            <p>Hijacking remote threads for execution.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 37/Thread Hijacking - Local Thread Enumeration.htm">Module 37: Thread Hijacking - Local Thread Enumeration</a>
+            <p>Enumerating local threads for hijacking.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 38/Thread Hijacking - Remote Thread Enumeration.htm">Module 38: Thread Hijacking - Remote Thread Enumeration</a>
+            <p>Enumerating remote threads for hijacking.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 39/APC Injection.htm">Module 39: APC Injection</a>
+            <p>Injecting payloads using Asynchronous Procedure Calls (APC).</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 40/Early Bird APC Injection.htm">Module 40: Early Bird APC Injection</a>
+            <p>Using Early Bird APC Injection for execution.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 41/Callback Code Execution.htm">Module 41: Callback Code Execution</a>
+            <p>Executing code using callback mechanisms.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 42/Local Mapping Injection.htm">Module 42: Local Mapping Injection</a>
+            <p>Injecting payloads using local memory mapping.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 43/Remote Mapping Injection.htm">Module 43: Remote Mapping Injection</a>
+            <p>Injecting payloads using remote memory mapping.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 44/Local Function Stomping Injection.htm">Module 44: Local Function Stomping Injection</a>
+            <p>Injecting payloads using local function stomping.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 45/Remote Function Stomping Injection.htm">Module 45: Remote Function Stomping Injection</a>
+            <p>Injecting payloads using remote function stomping.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 46/Payload Execution Control.htm">Module 46: Payload Execution Control</a>
+            <p>Controlling the execution of payloads.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 47/Spoofing PPID.htm">Module 47: Spoofing PPID</a>
+            <p>Spoofing the Parent Process ID (PPID) for evasion.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 48/Process Argument Spoofing (1).htm">Module 48: Process Argument Spoofing (1)</a>
+            <p>Spoofing process arguments for evasion.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 49/Process Argument Spoofing (2).htm">Module 49: Process Argument Spoofing (2)</a>
+            <p>Advanced techniques for process argument spoofing.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 50/Parsing PE Headers.htm">Module 50: Parsing PE Headers</a>
+            <p>Parsing PE headers for analysis and manipulation.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 51/String Hashing.htm">Module 51: String Hashing</a>
+            <p>Using string hashing for evasion.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 52/IAT Hiding & Obfuscation - Introduction.htm">Module 52: IAT Hiding & Obfuscation - Introduction</a>
+            <p>Introduction to IAT hiding and obfuscation.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 53/IAT Hiding & Obfuscation - Custom GetProcAddress.htm">Module 53: IAT Hiding & Obfuscation - Custom GetProcAddress</a>
+            <p>Customizing GetProcAddress for IAT hiding.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 54/IAT Hiding & Obfuscation - Custom GetModuleHandle.htm">Module 54: IAT Hiding & Obfuscation - Custom GetModuleHandle</a>
+            <p>Customizing GetModuleHandle for IAT hiding.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 55/IAT Hiding & Obfuscation - API Hashing.htm">Module 55: IAT Hiding & Obfuscation - API Hashing</a>
+            <p>Using API hashing for IAT hiding.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 56/IAT Hiding & Obfuscation - Custom Pseudo Handles.htm">Module 56: IAT Hiding & Obfuscation - Custom Pseudo Handles</a>
+            <p>Using custom pseudo handles for IAT hiding.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 57/IAT Hiding & Obfuscation - Compile Time API Hashing.htm">Module 57: IAT Hiding & Obfuscation - Compile Time API Hashing</a>
+            <p>Using compile-time API hashing for IAT hiding.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 58/API Hooking - Introduction.htm">Module 58: API Hooking - Introduction</a>
+            <p>Introduction to API hooking techniques.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 59/API Hooking - Detours Library.htm">Module 59: API Hooking - Detours Library</a>
+            <p>Using the Detours library for API hooking.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 60/API Hooking - Minhook Library.htm">Module 60: API Hooking - Minhook Library</a>
+            <p>Using the Minhook library for API hooking.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 61/API Hooking - Custom Code.htm">Module 61: API Hooking - Custom Code</a>
+            <p>Implementing custom API hooking code.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 62/API Hooking - Using Windows APIs.htm">Module 62: API Hooking - Using Windows APIs</a>
+            <p>Using Windows APIs for API hooking.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 63/Syscalls - Introduction.htm">Module 63: Syscalls - Introduction</a>
+            <p>Introduction to syscalls in malware development.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 64/Syscalls - Userland Hooking.htm">Module 64: Syscalls - Userland Hooking</a>
+            <p>Hooking syscalls in userland for evasion.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 65/Syscalls - SysWhispers.htm">Module 65: Syscalls - SysWhispers</a>
+            <p>Using SysWhispers for syscall obfuscation.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 66/Syscalls - Hell's Gate.htm">Module 66: Syscalls - Hell's Gate</a>
+            <p>Using Hell's Gate for syscall obfuscation.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 67/Syscalls - Reimplementing Classic Injection.htm">Module 67: Syscalls - Reimplementing Classic Injection</a>
+            <p>Reimplementing classic injection using syscalls.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 68/Syscalls - Reimplementing Mapping Injection.htm">Module 68: Syscalls - Reimplementing Mapping Injection</a>
+            <p>Reimplementing mapping injection using syscalls.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 69/Syscalls - Reimplementing APC Injection.htm">Module 69: Syscalls - Reimplementing APC Injection</a>
+            <p>Reimplementing APC injection using syscalls.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 70/Anti-Analysis - Introduction.htm">Module 70: Anti-Analysis - Introduction</a>
+            <p>Introduction to anti-analysis techniques.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 71/Anti-Debugging - Multiple Techniques.htm">Module 71: Anti-Debugging - Multiple Techniques</a>
+            <p>Using multiple techniques for anti-debugging.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 72/Anti-Debugging - Self-Deletion.htm">Module 72: Anti-Debugging - Self-Deletion</a>
+            <p>Implementing self-deletion for anti-debugging.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 73/Anti-Virtual Environments - Multiple Techniques.htm">Module 73: Anti-Virtual Environments - Multiple Techniques</a>
+            <p>Using multiple techniques to detect virtual environments.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 74/Anti-Virtual Environments - Multiple Delay Execution Techniques.htm">Module 74: Anti-Virtual Environments - Multiple Delay Execution Techniques</a>
+            <p>Using delay execution techniques to detect virtual environments.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 75/Anti-Virtual Environments - API Hammering.htm">Module 75: Anti-Virtual Environments - API Hammering</a>
+            <p>Using API hammering to detect virtual environments.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 76/Binary Entropy Reduction.htm">Module 76: Binary Entropy Reduction</a>
+            <p>Reducing binary entropy for evasion.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 77/Brute Force Decryption.htm">Module 77: Brute Force Decryption</a>
+            <p>Using brute force techniques for decryption.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 78/MalDev Academy Tool - KeyGuard.htm">Module 78: MalDev Academy Tool - KeyGuard</a>
+            <p>Using the KeyGuard tool for malware development.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 79/CRT Library Removal & Malware Compiling.htm">Module 79: CRT Library Removal & Malware Compiling</a>
+            <p>Removing CRT libraries and compiling malware.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 80/IAT Camouflage.htm">Module 80: IAT Camouflage</a>
+            <p>Camouflaging the Import Address Table (IAT) for evasion.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 81/Bypassing AVs.htm">Module 81: Bypassing AVs</a>
+            <p>Techniques to bypass antivirus software.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 82/Introduction To EDRs.htm">Module 82: Introduction To EDRs</a>
+            <p>Introduction to Endpoint Detection and Response (EDR) systems.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 83/NTDLL Unhooking - Introduction.htm">Module 83: NTDLL Unhooking - Introduction</a>
+            <p>Introduction to NTDLL unhooking techniques.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 84/NTDLL Unhooking - From Disk.htm">Module 84: NTDLL Unhooking - From Disk</a>
+            <p>Unhooking NTDLL from disk for evasion.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 85/NTDLL Unhooking - From KnownDlls Directory.htm">Module 85: NTDLL Unhooking - From KnownDlls Directory</a>
+            <p>Unhooking NTDLL from the KnownDlls directory.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 86/NTDLL Unhooking - From a Suspended Process.htm">Module 86: NTDLL Unhooking - From a Suspended Process</a>
+            <p>Unhooking NTDLL from a suspended process.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 87/NTDLL Unhooking - From a Web Server.htm">Module 87: NTDLL Unhooking - From a Web Server</a>
+            <p>Unhooking NTDLL using a web server.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 88/Updating Hell's Gate.htm">Module 88: Updating Hell's Gate</a>
+            <p>Updating Hell's Gate for modern evasion techniques.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 89/Indirect Syscalls - HellsHall.htm">Module 89: Indirect Syscalls - HellsHall</a>
+            <p>Using HellsHall for indirect syscalls.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 90/Block DLL Policy.htm">Module 90: Block DLL Policy</a>
+            <p>Understanding and bypassing the Block DLL policy.</p>
+        </div>
+        <div class="module-card">
+            <a href="Module 91/Diving Into NtCreateUserProcess.htm">Module 91: Diving Into NtCreateUserProcess</a>
+            <p>Exploring NtCreateUserProcess for process creation.</p>
+        </div>
+    </div>
+</body>
+</html>
